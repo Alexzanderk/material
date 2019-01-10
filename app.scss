@@ -1,0 +1,11 @@
+@import "@material/button/mdc-button";
+
+body {
+    color: red;
+}
+
+
+.foo-button {
+    @include mdc-button-ink-color(teal);
+    @include mdc-states(teal);
+  }
